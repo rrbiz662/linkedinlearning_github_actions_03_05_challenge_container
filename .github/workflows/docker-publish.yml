@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: ./rrbiz662/linkedinlearning_github_actions_03_05_challenge_python/.github/workflows/python-app.yml
+    uses: rrbiz662/linkedinlearning_github_actions_03_05_challenge_python/.github/workflows/python-app.yml@main
     permissions:
       contents: read
       checks: write    
